@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ABC9FF;
+}
+
+section{
+    min-height: 80vh;
+    padding: 1rem;
+}
+
+header{
+    position: fixed;
+}
+
+.navbar{
+    position: fixed;
+    background-color: #68A7AD;
+    height: 50px;
+    width: 100%;
+    box-shadow: 1px 1px 1px rgb(29, 28, 28);
+}
+.navbar img{
+    float: left;
+    margin-left: 12rem;
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+
+}
+
+.navbar ul{
+    margin-left: 20rem;
+    list-style: none;
+}
+.navbar ul li a{
+    padding-top: 15px;
+    padding-left: 5rem;
+    color:#fff;
+    float: left;
+}
+
+.container{
+    background-color: #E5E3C9;
+    margin-left: 9rem;
+    padding: 0px;
+    height: 113rem;
+    width: 80%;
+    box-shadow: 1px 10px 10px rgb(8, 8, 8);
+
+}
+
+
+
+.messi-about h1{
+    color: #54BAB9;
+    padding: 20px;
+}
+
+.center-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-text h1{
+    font-size: 3rem;
+    color:#fff;  
+}
+.center-text .goat{
+    font-size: 3rem;
+    color:#fff;  
+}
+
+.center-text .goat1{
+    font-size: 2rem;
+    color:#fff; 
+    padding-left: 5rem; 
+}
+.center-text .goat2{
+    font-size: 2rem;
+    color:#fff; 
+    padding-left: 7rem;  
+}
+.center-text .goat3{
+    font-size: 2rem;
+    color:#fff; 
+    padding-left: 9rem;  
+}
+.center-text .goat4{
+    font-size: 2rem;
+    color:#fff; 
+    padding-left: 11rem;  
+}
+
+.center-text p{
+    font-size: 3rem;
+    color:#fff;  
+}
+
+.home{
+    background-color: #FFE6E6;
+    height: 500px;
+    width: 700px;
+    box-shadow: 1px 1px 1px rgb(34, 33, 33);
+    margin-top: 5rem;
+    margin-left: 8.5rem;
+}
+
+.home img{
+    width: 700px;    
+}
+
+
+
+
+/* gallery section */
+
+.messi-gallery{
+    /* background-color: #F7ECDE; */
+    height: 600px;
+    width: 700px;
+    margin-left: 9rem;
+}
+.gallery-title{
+    color: #54BAB9;    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.messi-gallery .gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+}
+
+.messi-gallery .gallery img{
+    width: 100%;
+    height: auto;
+}
+.messi-gallery .gallery-big img{
+    height: 300px;
+    width: 430px;
+
+}
+
+.messi-gallery img:hover{
+    background:#40DFEF;
+    box-shadow: 1px 5px 2px rgb(34, 33, 33);
+    opacity: 0.7;
+}
+
+.messi-gallery .gallery-big img:hover{
+    background:#40DFEF;
+    box-shadow: 1px 5px 2px rgb(34, 33, 33);
+}
+
+
+
+/* about section */
+.messi-about .about{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+}
+.messi-about{
+    margin-left: 9rem;
+}
+
+.messi-about .about img{
+    width: 100%;
+    height: auto;
+}
+
+.messi-about .about{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+
+/* footer */
+
+.footer{
+    background-color: green;
+    padding-left: 5rem;
+}
+.footer p{
+    padding-left: 15rem;
+}
+
+
+
+
+
+
+
